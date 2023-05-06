@@ -29,6 +29,10 @@
  color: #61dafb;
 }
 
+.Todo-completed {
+ text-decoration: line-through;
+}
+
 @keyframes App-logo-spin {
  from {
   transform: rotate(0deg);

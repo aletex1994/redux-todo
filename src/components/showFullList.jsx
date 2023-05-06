@@ -24,7 +24,7 @@ export const ShowTodoList = () => {
      {fullList.todos.map((todo) => {
       return (
        <div key={todo.id}>
-        <h4>
+        <h4 className={todo.completed ? "Todo-completed" : ""}>
          <input
           type="checkbox"
           checked={todo.completed}
