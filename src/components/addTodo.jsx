@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addTodoList } from "../actions/todosActions";
+import { addTodoItem } from "../actions/todosActions";
 
 export const AddTodo = () => {
  const [text, setText] = useState("");
@@ -8,7 +8,7 @@ export const AddTodo = () => {
 
  const handleSubmit = (e) => {
   e.preventDefault();
-  dispatch(addTodoList(text));
+  dispatch(addTodoItem(text));
   setText("");
  };
 

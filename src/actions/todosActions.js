@@ -1,4 +1,4 @@
-export const addTodoList = (text) => ({
+export const addTodoItem = (text) => ({
  type: "ADD_TODO",
  payload: {
   id: new Date().getTime(),
@@ -8,12 +8,12 @@ export const addTodoList = (text) => ({
  },
 });
 
-export const removeTodoList = (id) => ({
+export const removeTodoItem = (id) => ({
  type: "REMOVE_TODO",
  payload: id,
 });
 
-export const updateTodoList = (id, completed) => ({
+export const updateTodoItem = (id, completed) => ({
  type: "UPDATE_TODO",
  payload: {
   id,
