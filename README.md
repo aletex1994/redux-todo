@@ -1,4 +1,4 @@
-# React Redux Todo List App
+# React Redux Todo List App 📋 
 
 This is a simple Todo List application built using React and Redux. It allows the user to add new tasks, update the status of existing tasks (completed or not), and delete tasks.
 
